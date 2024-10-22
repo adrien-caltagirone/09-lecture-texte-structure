@@ -1,4 +1,4 @@
-''' Module '''
+''' module '''
 import csv
 import doctest
 
@@ -147,6 +147,7 @@ def get_meteo_data_by_day(data, station, date):
     return temps
 
 def main():
+    ''' main '''
     filename = DATA
     data = read_csv_meteo_data(filename)
     print(data)
